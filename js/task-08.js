@@ -6,6 +6,7 @@ function onSubmit(event) {
   event.preventDefault()
 
   const {email,password} = event.currentTarget.elements
+  console.log(email);
   if (email === "" || password === "") {
     alert(`Заповніть всі поля`);
     return; }
