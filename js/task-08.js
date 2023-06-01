@@ -4,10 +4,10 @@ formEl.addEventListener('submit', onSubmit);
 function onSubmit(event) {
 
   event.preventDefault()
-
+  formEl.reset();
   const {email,password} = event.currentTarget.elements
-  console.log(email);
-  if (email === "" || password === "") {
+  
+  if (email === ""  password === "") {
     alert(`Заповніть всі поля`);
     return; }
 
