@@ -7,6 +7,6 @@ items.forEach((item) => {
 
   console.log(`Elements:${item.lastElementChild.children.length}`);
   
-});
+}); 
 
 
