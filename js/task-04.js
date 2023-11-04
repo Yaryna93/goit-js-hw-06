@@ -14,4 +14,4 @@ function ButtonDecrement() {
 function ButtonIncrement() {
   counterValue += 1;
   value.textContent = counterValue;
-}
+} 

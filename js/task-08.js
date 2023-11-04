@@ -18,4 +18,4 @@ function onSubmit(event) {
 
   console.log(data);
   formEl.reset();
-} 
+}

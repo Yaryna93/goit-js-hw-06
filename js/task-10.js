@@ -27,5 +27,5 @@ function createBoxes (){
   }
 
   const boxesList = boxes.join('');
-  container.innerHTML = boxesList;
+  container.innerHTML = boxesList; 
 }

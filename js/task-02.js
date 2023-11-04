@@ -5,7 +5,7 @@ const ingredients = [
   'Tomatos',
   'Herbs',
   'Condiments',
-];
+]; 
 const items = [];
 const ingredientsRef = document.getElementById("ingredients");
 
