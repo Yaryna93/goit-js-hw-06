@@ -13,4 +13,3 @@ buttonEl.addEventListener('click', (event) => {
   document.body.style.backgroundColor  = color;
   spanEl.textContent = color;
 })
-
